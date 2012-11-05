@@ -1,0 +1,81 @@
+<mockup version="1.0" skin="sketch" measuredW="1145" measuredH="684" mockupW="781" mockupH="596">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="364" y="88" w="781" h="596" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ownCloud%0Ahttp%3A//owncloud.my.net</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="364" y="189" w="781" h="-1" measuredW="100" measuredH="5" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="364" y="158" w="-1" h="-1" measuredW="147" measuredH="32" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../assets/logo.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::SearchBox" x="998" y="162" w="-1" h="-1" measuredW="120" measuredH="25" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::List" x="364" y="189" w="147" h="469" measuredW="100" measuredH="126" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>3</selectedIndex>
+        <text>Files%0AContacts%0ACalendar%0AMail</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Tree" x="511" y="225" w="188" h="433" measuredW="300" measuredH="225" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>2</selectedIndex>
+        <text>f%20user@googlemail.com%0Af%20user@imap.net%0Af%20user@imap2.net</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="511" y="194" w="188" h="27" measuredW="95" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>email-compose%26bm%3Bemail-compose.bmml%26bm%3Bemail-compose.bmml%26bm%3Bemail-compose.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22147%2C106%2C335%2C133%22%20href%3D%22email-compose.bmml%22%20alt%3D%22email-compose%22%20id%3D%2212%22/%3E</map>
+        <text>Add%20account</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Button" x="841" y="381" w="-1" h="-1" measuredW="77" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Detect%20...</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextInput" x="813" y="341" w="171" h="-1" measuredW="79" measuredH="27" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Label" x="714" y="342" w="84" h="24" measuredW="64" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Password%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Title" x="714" y="210" w="-1" h="-1" measuredW="107" measuredH="28" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Autodetect</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::StickyNote" x="379" y="366" w="331" h="270" measuredW="109" measuredH="123" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>3%20steps%20in%20one%20mockup%3A%0A1.%29%20User%20enters%20email%20and%20password%20-%20clicks%20Detect%0A2.%29%20Progress%20is%20shown%20to%20the%20user%0A3.%29%20if%20auto%20detect%20fails%20-%3E%20manual%20mode%0A%20%0AIn%20case%20of%20success%20we%20fade%20into%20the%20messages%20view</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::TextInput" x="813" y="304" w="171" h="-1" measuredW="79" measuredH="27" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Label" x="714" y="305" w="84" h="24" measuredW="94" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>E-Mail%20address%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="714" y="246" w="277" h="38" measuredW="606" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Please%20enter%20your%20email%20address%20and%20password.%20We%20will%20try%20to%20auto%20detect%20all%20neccessary%20settings%20for%20you.</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Button" x="821" y="577" w="-1" h="-1" measuredW="154" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Switch%20to%20manual%20mode</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::ProgressBar" x="813" y="431" w="171" h="20" measuredW="100" measuredH="20" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="714" y="518" w="302" h="38" measuredW="497" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>We%20could%20not%20determine%20your%20email%20setting%20for%20your.%20Please%20switch%20to%20the%20manual%20mode.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
