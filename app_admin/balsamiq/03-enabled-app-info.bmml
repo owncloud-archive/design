@@ -207,14 +207,7 @@
             <text>Internal%20App</text>
           </controlProperties>
         </control>
-        <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="541" y="66" w="109" h="42" measuredW="87" measuredH="29" zOrder="7" locked="false" isInGroup="4">
-          <controlProperties>
-            <menuIcon>false</menuIcon>
-            <size>20</size>
-            <text>Disable</text>
-          </controlProperties>
-        </control>
-        <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="78" y="113" w="-1" h="-1" measuredW="130" measuredH="21" zOrder="8" locked="false" isInGroup="4">
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="78" y="113" w="-1" h="-1" measuredW="130" measuredH="21" zOrder="7" locked="false" isInGroup="4">
           <controlProperties>
             <text>An%20RSS/Atom%20reader.</text>
           </controlProperties>

@@ -182,20 +182,6 @@
             <text>Internal%20App</text>
           </controlProperties>
         </control>
-        <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="535" y="98" w="109" h="42" measuredW="83" measuredH="29" zOrder="8" locked="false" isInGroup="3">
-          <controlProperties>
-            <menuIcon>false</menuIcon>
-            <size>20</size>
-            <text>Enable</text>
-          </controlProperties>
-        </control>
-        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="535" y="160" w="109" h="42" measuredW="94" measuredH="29" zOrder="9" locked="false" isInGroup="3">
-          <controlProperties>
-            <menuIcon>false</menuIcon>
-            <size>20</size>
-            <text>Uninstall</text>
-          </controlProperties>
-        </control>
       </groupChildrenDescriptors>
     </control>
     <control controlID="4" controlTypeID="__group__" x="17" y="114" w="150" h="588" measuredW="150" measuredH="588" zOrder="4" locked="false" isInGroup="-1">
