@@ -163,11 +163,11 @@
     </control>
     <control controlID="4" controlTypeID="__group__" x="296" y="165" w="688" h="488" measuredW="688" measuredH="488" zOrder="4" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="com.balsamiq.mockups::TabBar" x="0" y="0" w="688" h="488" measuredW="172" measuredH="100" zOrder="0" locked="false" isInGroup="4">
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TabBar" x="0" y="0" w="688" h="488" measuredW="186" measuredH="100" zOrder="0" locked="false" isInGroup="4">
           <controlProperties>
             <selectedIndex>1</selectedIndex>
             <tabVPosition>top</tabVPosition>
-            <text>Settings%2C%20Info</text>
+            <text>Settings%2C%20About</text>
           </controlProperties>
         </control>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="78" y="42" w="-1" h="-1" measuredW="104" measuredH="50" zOrder="1" locked="false" isInGroup="4">
