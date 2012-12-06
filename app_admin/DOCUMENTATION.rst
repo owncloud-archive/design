@@ -27,11 +27,11 @@ to the respective category. An icon also appears upon hover to disable or enable
 “Get Apps” opens the app market within the administration panel (see **Figure 8**). “Create App” opens the ownCloud documentation on app development. This behavior 
 is similar to that of the current admin panel.
 
-Figure 3 – Enabled app info pane
+Figure 3 – Enabled app about pane
 --------------------------------
 
 Clicking on an app’s tile will bring up an application’s settings pane (see **Figure 4**). The user can view description and legal information by selecting the 
-“Info” tab. The ability to disable the application is available on both tabs.
+"About" tab.
 
 Internal applications are labeled as such in the bottom right corner.
 
@@ -39,11 +39,12 @@ Figure 4 – Enabled app settings pane
 ------------------------------------
 
 The settings tab of the application information pane is used for settings that need to be handled by administrators. Settings in this section are designed in a 
-global context. Application developers can specify and program a settings page for this panel. The settings tab opens by default.
+global context. Application developers can specify and program a settings page for this panel. Applications can also be launched from this view. The settings tab 
+opens by default.
 
 Both enabled and disabled applications have a settings area.
 
-Figure 5 – Disabled app info pane
+Figure 5 – Disabled app about pane
 ---------------------------------
 
 Disabled apps have a similar layout to their enabled app counterparts (see **Figure 3**). Disabled apps, however, can be uninstalled (deleted) from the web server. 
@@ -53,7 +54,7 @@ Settings can be modified when the application is disabled, too.
 Figure 6 – Quick enable/disable
 -------------------------------
 
-To quickly enable or disable apps, an icon appears upon hovering over an app’s tile. In this case, the disable icon is displayed because the app is enabled.
+To quickly enable or disable apps, an icon and label appears upon hovering over an app’s tile. In this case, both instances are shown.
 
 Figure 7 – App market
 ---------------------
