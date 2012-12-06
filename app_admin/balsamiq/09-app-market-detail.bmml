@@ -1,0 +1,242 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1112" measuredH="731" mockupW="1100" mockupH="720">
+  <controls>
+    <control controlID="0" controlTypeID="__group__" x="12" y="11" w="1100" h="720" measuredW="1100" measuredH="720" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="1100" h="720" measuredW="1100" measuredH="720" zOrder="0" locked="false" isInGroup="0">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1100" h="720" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <color>16777215</color>
+                <text>ownCloud%20%28TexasGamer%29%0Ahttp%3A//localhost/owncloud/index.php/settings/apps</text>
+                <value>0</value>
+                <verticalScrollbar>true</verticalScrollbar>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="1" controlTypeID="__group__" x="12" y="114" w="150" h="588" measuredW="150" measuredH="588" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Accordion" x="0" y="0" w="150" h="588" measuredW="150" measuredH="186" zOrder="0" locked="false" isInGroup="1">
+          <controlProperties>
+            <selectedIndex>-1</selectedIndex>
+            <text>Files%0ANews%0AMusic%0ACustom%20App</text>
+            <value>0</value>
+            <verticalScrollbar>false</verticalScrollbar>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Accordion" x="0" y="450" w="150" h="138" measuredW="150" measuredH="213" zOrder="1" locked="false" isInGroup="1">
+          <controlProperties>
+            <selectedIndex>-1</selectedIndex>
+            <text>Personal%0AUsers%0AApps%0AAdmin%0AHelp</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="2" controlTypeID="__group__" x="12" y="82" w="1083" h="32" measuredW="1083" measuredH="32" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="1083" h="32" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="2">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <color>3355443</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="6" y="3" w="-1" h="-1" measuredW="83" measuredH="26" zOrder="1" locked="false" isInGroup="2">
+          <controlProperties>
+            <color>16777215</color>
+            <size>18</size>
+            <text>ownCloud</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="926" y="3" w="106" h="-1" measuredW="56" measuredH="27" zOrder="2" locked="false" isInGroup="2">
+          <controlProperties>
+            <backgroundAlpha>1</backgroundAlpha>
+            <color>15658734</color>
+            <text>Search</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="1047" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="2">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>PowerIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="3" controlTypeID="__group__" x="177" y="156" w="903" h="265" measuredW="903" measuredH="265" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="903" h="265" measuredW="903" measuredH="265" zOrder="0" locked="false" isInGroup="3">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::ButtonBar" x="221" y="0" w="-1" h="-1" measuredW="407" measuredH="29" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <text>Latest%2C%20Alphabetical%2C%20Highest%20rating%2C%20Most%20downloaded</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="50" w="216" h="100" measuredW="52" measuredH="52" zOrder="1" locked="false" isInGroup="0">
+              <controlProperties>
+                <align>left</align>
+                <backgroundAlpha>1</backgroundAlpha>
+                <icon>HomeIcon%7Clarge</icon>
+                <shape>roundRect</shape>
+                <text>*Files*%0AownCloud%0A4.5</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::RoundButton" x="231" y="50" w="216" h="100" measuredW="52" measuredH="52" zOrder="2" locked="false" isInGroup="0">
+              <controlProperties>
+                <align>left</align>
+                <backgroundAlpha>1</backgroundAlpha>
+                <icon>HLinesIcon%7Clarge</icon>
+                <shape>roundRect</shape>
+                <text>*News*%0AownCloud%0A7.5</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::RoundButton" x="687" y="50" w="216" h="100" measuredW="52" measuredH="52" zOrder="3" locked="false" isInGroup="0">
+              <controlProperties>
+                <align>left</align>
+                <backgroundAlpha>1</backgroundAlpha>
+                <icon>WorldIcon%7Clarge</icon>
+                <shape>roundRect</shape>
+                <text>*Custom%20App*%0ADeveloper%0A1.0</text>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::RoundButton" x="462" y="50" w="216" h="100" measuredW="52" measuredH="52" zOrder="4" locked="false" isInGroup="0">
+              <controlProperties>
+                <align>left</align>
+                <backgroundAlpha>1</backgroundAlpha>
+                <icon>MusicIcon%7Clarge</icon>
+                <shape>roundRect</shape>
+                <text>*Music*%0ADeveloper%0A1.2.1</text>
+              </controlProperties>
+            </control>
+            <control controlID="7" controlTypeID="com.balsamiq.mockups::RoundButton" x="687" y="165" w="216" h="100" measuredW="52" measuredH="52" zOrder="5" locked="false" isInGroup="0">
+              <controlProperties>
+                <align>left</align>
+                <backgroundAlpha>1</backgroundAlpha>
+                <icon>FolderClosed%7Clarge</icon>
+                <shape>roundRect</shape>
+                <text>*FTP*%0ADeveloper%0A0.2</text>
+              </controlProperties>
+            </control>
+            <control controlID="8" controlTypeID="com.balsamiq.mockups::RoundButton" x="462" y="165" w="216" h="100" measuredW="52" measuredH="52" zOrder="6" locked="false" isInGroup="0">
+              <controlProperties>
+                <align>left</align>
+                <backgroundAlpha>1</backgroundAlpha>
+                <icon>GearIcon%7Clarge</icon>
+                <shape>roundRect</shape>
+                <text>*System%20Tools*%0ADeveloper%0A1.0</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="4" controlTypeID="__group__" x="284" y="174" w="688" h="465" measuredW="688" measuredH="465" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="688" h="465" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="4"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="79" y="27" w="-1" h="-1" measuredW="346" measuredH="50" zOrder="1" locked="false" isInGroup="4">
+          <controlProperties>
+            <align>left</align>
+            <text>Internal%20Bookmarks</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="16" y="28" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="2" locked="false" isInGroup="4">
+          <controlProperties>
+            <icon>StarIcon%7Clarge</icon>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="81" y="62" w="-1" h="-1" measuredW="259" measuredH="21" zOrder="3" locked="false" isInGroup="4">
+          <controlProperties>
+            <text>2.1.3%20-%20676%20Downloads%20-%2058%25%20rating%20-%206%20fans</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Paragraph" x="79" y="107" w="442" h="120" measuredW="200" measuredH="80" zOrder="4" locked="false" isInGroup="4">
+          <controlProperties>
+            <size>16</size>
+            <text>This%20app%20add%20an%20action%20icon%20on%20directories%20to%20allow%20you%20making%20bookmarks.%0A%20%0ABy%20clicking%20on%20the%20star%20action%20icon%2C%20a%20new%20navigation%20link%20appear%20for%20a%20faster%20access%20to%20your%20folders%20%21%20Since%20the%20v2%20you%20can%20rearrange%20your%20bookmarks%21</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="551" y="47" w="109" h="42" measuredW="74" measuredH="29" zOrder="5" locked="false" isInGroup="4">
+          <controlProperties>
+            <menuIcon>false</menuIcon>
+            <size>20</size>
+            <text>Install</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="551" y="99" w="109" h="42" measuredW="95" measuredH="27" zOrder="6" locked="false" isInGroup="4">
+          <controlProperties>
+            <menuIcon>false</menuIcon>
+            <size>12</size>
+            <text>Download%20.zip</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Image" x="190" y="242" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="7" locked="false" isInGroup="4">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Image" x="306" y="242" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="8" locked="false" isInGroup="4">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="425" y="242" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="9" locked="false" isInGroup="4">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Icon" x="156" y="269" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="10" locked="false" isInGroup="4">
+          <controlProperties>
+            <icon>LeftFillTriangleIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::Icon" x="507" y="269" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="11" locked="false" isInGroup="4">
+          <controlProperties>
+            <icon>RightFillTriangleIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::RoundButton" x="563" y="418" w="97" h="32" measuredW="32" measuredH="32" zOrder="12" locked="false" isInGroup="4">
+          <controlProperties>
+            <backgroundAlpha>1</backgroundAlpha>
+            <borderColor>0</borderColor>
+            <color>14540253</color>
+            <shape>roundRect</shape>
+            <size>13</size>
+            <text>Top%20Rated</text>
+          </controlProperties>
+        </control>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::RoundButton" x="460" y="418" w="97" h="32" measuredW="32" measuredH="32" zOrder="13" locked="false" isInGroup="4">
+          <controlProperties>
+            <backgroundAlpha>1</backgroundAlpha>
+            <borderColor>0</borderColor>
+            <color>14540253</color>
+            <shape>roundRect</shape>
+            <size>13</size>
+            <text>Staff%20Pick</text>
+          </controlProperties>
+        </control>
+        <control controlID="14" controlTypeID="com.balsamiq.mockups::Button" x="566" y="156" w="-1" h="-1" measuredW="79" measuredH="27" zOrder="14" locked="false" isInGroup="4">
+          <controlProperties>
+            <text>More%20Info</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="926" y="187" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="177" y="124" w="-1" h="-1" measuredW="185" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%2C%20Search%2C%20Bookmarks</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="926" y="124" w="142" h="46" measuredW="134" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Installed%20Apps</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
