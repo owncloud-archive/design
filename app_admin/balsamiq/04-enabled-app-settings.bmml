@@ -123,47 +123,25 @@
             <text>7.5</text>
           </controlProperties>
         </control>
-        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="78" y="381" w="-1" h="-1" measuredW="84" measuredH="26" zOrder="4" locked="false" isInGroup="2">
-          <controlProperties>
-            <bold>true</bold>
-            <size>18</size>
-            <text>Copyright</text>
-          </controlProperties>
-        </control>
-        <control controlID="5" controlTypeID="com.balsamiq.mockups::Paragraph" x="78" y="413" w="463" h="39" measuredW="200" measuredH="80" zOrder="5" locked="false" isInGroup="2">
-          <controlProperties>
-            <text>AGPL-licensed%20by%20Alessandro%20Cosentino%2C%20Bernhard%20Posselt.%20Powered%20by%20SimplePie%20%28Ryan%20Parman%2C%20Geoffrey%20Sneddon%2C%20Ryan%20McCue%20and%20contributors%29.</text>
-          </controlProperties>
-        </control>
-        <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="162" y="114" w="200" h="19" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="2">
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="162" y="114" w="200" h="19" measuredW="200" measuredH="80" zOrder="4" locked="false" isInGroup="2">
           <controlProperties>
             <size>16</size>
             <text>Maximum%20number%20of%20feeds%3A</text>
           </controlProperties>
         </control>
-        <control controlID="7" controlTypeID="com.balsamiq.mockups::RoundButton" x="554" y="416" w="97" h="32" measuredW="32" measuredH="32" zOrder="7" locked="false" isInGroup="2">
-          <controlProperties>
-            <backgroundAlpha>1</backgroundAlpha>
-            <borderColor>0</borderColor>
-            <color>14540253</color>
-            <shape>roundRect</shape>
-            <size>13</size>
-            <text>Internal%20App</text>
-          </controlProperties>
-        </control>
-        <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="541" y="66" w="109" h="42" measuredW="87" measuredH="29" zOrder="8" locked="false" isInGroup="2">
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="541" y="66" w="109" h="42" measuredW="87" measuredH="29" zOrder="5" locked="false" isInGroup="2">
           <controlProperties>
             <menuIcon>false</menuIcon>
             <size>20</size>
             <text>Disable</text>
           </controlProperties>
         </control>
-        <control controlID="9" controlTypeID="com.balsamiq.mockups::TextInput" x="78" y="113" w="72" h="-1" measuredW="28" measuredH="27" zOrder="9" locked="false" isInGroup="2">
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::TextInput" x="78" y="113" w="72" h="-1" measuredW="28" measuredH="27" zOrder="6" locked="false" isInGroup="2">
           <controlProperties>
             <text>10</text>
           </controlProperties>
         </control>
-        <control controlID="10" controlTypeID="com.balsamiq.mockups::CheckBox" x="78" y="154" w="-1" h="-1" measuredW="109" measuredH="22" zOrder="10" locked="false" isInGroup="2">
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::CheckBox" x="78" y="154" w="-1" h="-1" measuredW="109" measuredH="22" zOrder="7" locked="false" isInGroup="2">
           <controlProperties>
             <text>Enable%20sharing</text>
           </controlProperties>
