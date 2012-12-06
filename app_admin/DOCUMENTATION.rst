@@ -22,7 +22,8 @@ Figure 2 – App panel with apps installed
 
 Applications are divided into enabled and disabled categories, of which both can be collapsed (see **Figure 10**). Each application tile includes the application 
 title, developer, version, and an icon. Application tiles can be dragged between the enabled and disabled categories to change the state of the app to correspond 
-to the respective category. An icon also appears upon hover to disable or enable the app (see **Figure 7**).
+to the respective category. Hovering over an app’s tile and selecting "Settings" (see **Figure 6**) will bring up an application’s settings pane (see **Figure 4**). 
+A button also appears upon hover to disable or enable the app (see **Figure 7**).
 
 “Get Apps” opens the app market within the administration panel (see **Figure 8**). “Create App” opens the ownCloud documentation on app development. This behavior 
 is similar to that of the current admin panel.
@@ -30,17 +31,17 @@ is similar to that of the current admin panel.
 Figure 3 – Enabled app about pane
 --------------------------------
 
-Clicking on an app’s tile will bring up an application’s settings pane (see **Figure 4**). The user can view description and legal information by selecting the 
-"About" tab.
+Hovering over an app’s tile and selecting "Settings" (see **Figure 6**) will bring up an application’s settings pane (see **Figure 4**). The user can view description 
+and legal information by selecting the "About" tab.
 
 Internal applications are labeled as such in the bottom right corner.
 
 Figure 4 – Enabled app settings pane
 ------------------------------------
 
-The settings tab of the application information pane is used for settings that need to be handled by administrators. Settings in this section are designed in a 
-global context. Application developers can specify and program a settings page for this panel. Applications can also be launched from this view. The settings tab 
-opens by default.
+Hovering over an app’s tile and selecting "Settings" (see **Figure 6**) will bring up an application’s settings pane (see **Figure 4**). The settings tab of the 
+application information pane is used for settings that need to be handled by administrators. Settings in this section are designed in a global context. Application 
+developers can specify and program a settings page for this panel. Applications can also be launched from this view. The settings tab opens by default.
 
 Both enabled and disabled applications have a settings area.
 
@@ -54,7 +55,8 @@ Settings can be modified when the application is disabled, too.
 Figure 6 – Quick enable/disable
 -------------------------------
 
-To quickly enable or disable apps, a button appears upon hovering over an app’s tile. In this case, both instances are shown.
+To quickly enable or disable apps, a button appears upon hovering over an app’s tile. In this case, both instances are shown. The user also accesses the settings 
+and about pane (see **Figures 3, 4, 5**) by hovering over the tile.
 
 Figure 7 – App market
 ---------------------
