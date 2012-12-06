@@ -146,6 +146,13 @@
             <text>Enable%20sharing</text>
           </controlProperties>
         </control>
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="564" y="121" w="62" h="33" measuredW="53" measuredH="27" zOrder="8" locked="false" isInGroup="2">
+          <controlProperties>
+            <menuIcon>false</menuIcon>
+            <size>12</size>
+            <text>Open</text>
+          </controlProperties>
+        </control>
       </groupChildrenDescriptors>
     </control>
     <control controlID="3" controlTypeID="__group__" x="11" y="114" w="150" h="588" measuredW="150" measuredH="588" zOrder="3" locked="false" isInGroup="-1">
