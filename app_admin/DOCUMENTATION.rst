@@ -25,8 +25,7 @@ title, developer, version, and an icon. Application tiles can be dragged between
 to the respective category. An icon also appears upon hover to disable or enable the app (see **Figure 7**).
 
 “Get Apps” opens the app market within the administration panel (see **Figure 8**). “Create App” opens the ownCloud documentation on app development. This behavior 
-is similar to that of the current admin panel. There is also a help button to display information regarding app installation (see **Figure 6**) similar to the 
-information displayed when no apps are installed (see **Figure 1**).
+is similar to that of the current admin panel.
 
 Figure 3 – Enabled app info pane
 --------------------------------
@@ -51,17 +50,12 @@ Disabled apps have a similar layout to their enabled app counterparts (see **Fig
 
 Settings can be modified when the application is disabled, too.
 
-Figure 6 – Help pane
---------------------
-
-The help pane can be accessed by selecting the help icon in the bottom right. The help pane is similar to that of **Figure 1**.
-
-Figure 7 – Quick enable/disable
+Figure 6 – Quick enable/disable
 -------------------------------
 
 To quickly enable or disable apps, an icon appears upon hovering over an app’s tile. In this case, the disable icon is displayed because the app is enabled.
 
-Figure 8 – App market
+Figure 7 – App market
 ---------------------
 
 The app market is now located within the administration panel. The current app market found at `http://apps.owncloud.com/
@@ -85,7 +79,7 @@ Note that comments and other advanced features found in the current market are n
 
 Search results are delivered as expected and also features infinite scrolling.
 
-Figure 10 – App panel with apps installed (collapsed)
+Figure 9 – App panel with apps installed (collapsed)
 -----------------------------------------------------
 
 The enabled and disabled application sections can be collapsed. When collapsed, the section header has the number of applications hidden in parentheses.

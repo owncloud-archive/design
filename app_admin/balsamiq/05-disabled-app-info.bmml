@@ -12,7 +12,6 @@
                 <verticalScrollbar>true</verticalScrollbar>
               </controlProperties>
             </control>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::HelpButton" x="1053" y="666" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="1" locked="false" isInGroup="0"/>
           </groupChildrenDescriptors>
         </control>
       </groupChildrenDescriptors>
