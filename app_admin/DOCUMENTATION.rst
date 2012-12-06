@@ -54,7 +54,7 @@ Settings can be modified when the application is disabled, too.
 Figure 6 – Quick enable/disable
 -------------------------------
 
-To quickly enable or disable apps, an icon and label appears upon hovering over an app’s tile. In this case, both instances are shown.
+To quickly enable or disable apps, a button appears upon hovering over an app’s tile. In this case, both instances are shown.
 
 Figure 7 – App market
 ---------------------

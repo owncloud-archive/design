@@ -64,9 +64,9 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="3" controlTypeID="__group__" x="183" y="134" w="903" h="367" measuredW="903" measuredH="367" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="3" controlTypeID="__group__" x="183" y="134" w="903" h="352" measuredW="903" measuredH="352" zOrder="3" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="903" h="367" measuredW="903" measuredH="367" zOrder="0" locked="false" isInGroup="3">
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="903" h="352" measuredW="903" measuredH="367" zOrder="0" locked="false" isInGroup="3">
           <groupChildrenDescriptors>
             <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="784" y="0" w="119" h="46" measuredW="100" measuredH="27" zOrder="0" locked="false" isInGroup="0">
               <controlProperties>
@@ -122,7 +122,7 @@
                 <backgroundAlpha>1</backgroundAlpha>
                 <icon>DataBaseIcon%7Clarge</icon>
                 <shape>roundRect</shape>
-                <text>*External%20Storage%20Support*%0AownCloud%0A0.2</text>
+                <text>*External%20Storage...*%0AownCloud%0A0.2</text>
               </controlProperties>
             </control>
             <control controlID="7" controlTypeID="com.balsamiq.mockups::RoundButton" x="231" y="252" w="216" h="100" measuredW="52" measuredH="52" zOrder="7" locked="false" isInGroup="0">
@@ -131,7 +131,7 @@
                 <backgroundAlpha>1</backgroundAlpha>
                 <icon>SadFaceIcon%7Clarge</icon>
                 <shape>roundRect</shape>
-                <text>*An%20Unnecessarily%20Long...*%0AownCloud%0A0.2</text>
+                <text>*An%20Unnecessarily...*%0AownCloud%0A0.2</text>
               </controlProperties>
             </control>
             <control controlID="8" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="193" w="903" h="-1" measuredW="100" measuredH="10" zOrder="10" locked="false" isInGroup="0"/>
@@ -147,36 +147,6 @@
                 <text>Enabled</text>
               </controlProperties>
             </control>
-            <control controlID="11" controlTypeID="com.balsamiq.mockups::Icon" x="140" y="131" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="11" locked="false" isInGroup="0">
-              <controlProperties>
-                <icon>XIcon%7Cxsmall</icon>
-              </controlProperties>
-            </control>
-            <control controlID="12" controlTypeID="com.balsamiq.mockups::Icon" x="171" y="144" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="12" locked="false" isInGroup="0">
-              <controlProperties>
-                <icon>CursorIcon%7Cmedium</icon>
-              </controlProperties>
-            </control>
-            <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="156" y="129" w="-1" h="-1" measuredW="47" measuredH="21" zOrder="13" locked="false" isInGroup="0">
-              <controlProperties>
-                <text>Disable</text>
-              </controlProperties>
-            </control>
-            <control controlID="14" controlTypeID="com.balsamiq.mockups::Icon" x="140" y="322" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="14" locked="false" isInGroup="0">
-              <controlProperties>
-                <icon>CheckMarkIcon%7Cxsmall</icon>
-              </controlProperties>
-            </control>
-            <control controlID="15" controlTypeID="com.balsamiq.mockups::Icon" x="171" y="335" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="15" locked="false" isInGroup="0">
-              <controlProperties>
-                <icon>CursorIcon%7Cmedium</icon>
-              </controlProperties>
-            </control>
-            <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="156" y="320" w="-1" h="-1" measuredW="45" measuredH="21" zOrder="16" locked="false" isInGroup="0">
-              <controlProperties>
-                <text>Enable</text>
-              </controlProperties>
-            </control>
           </groupChildrenDescriptors>
         </control>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="83" y="24" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="3">
@@ -190,6 +160,28 @@
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="303" y="262" w="-1" h="-1" measuredW="84" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>XIcon%7Cxsmall</icon>
+        <text>Disable</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="306" y="453" w="-1" h="-1" measuredW="81" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CheckMarkIcon%7Cxsmall</icon>
+        <text>Enable</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Icon" x="354" y="469" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CursorIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="354" y="280" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CursorIcon%7Cmedium</icon>
+      </controlProperties>
     </control>
   </controls>
 </mockup>

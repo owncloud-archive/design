@@ -102,7 +102,7 @@
             <backgroundAlpha>1</backgroundAlpha>
             <icon>DataBaseIcon%7Clarge</icon>
             <shape>roundRect</shape>
-            <text>*External%20Storage%20Support*%0AownCloud%0A0.2</text>
+            <text>*External%20Storage...*%0AownCloud%0A0.2</text>
           </controlProperties>
         </control>
         <control controlID="7" controlTypeID="com.balsamiq.mockups::RoundButton" x="231" y="252" w="216" h="100" measuredW="52" measuredH="52" zOrder="7" locked="false" isInGroup="2">
@@ -111,7 +111,7 @@
             <backgroundAlpha>1</backgroundAlpha>
             <icon>SadFaceIcon%7Clarge</icon>
             <shape>roundRect</shape>
-            <text>*An%20Unnecessarily%20Long...*%0AownCloud%0A0.2</text>
+            <text>*An%20Unnecessarily...*%0AownCloud%0A0.2</text>
           </controlProperties>
         </control>
         <control controlID="8" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="193" w="903" h="-1" measuredW="100" measuredH="10" zOrder="8" locked="false" isInGroup="2"/>
