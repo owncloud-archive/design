@@ -35,8 +35,30 @@ For existing users of the client simply do not migrate anything. If you just upd
 ![](setup 3 choosefolders.jpg)
 
 
-## Indicator
+## Indicator menu
+
 ![](indicator menu.jpg)
+
+* Browse ownCloud server
+  * Can have multiple servers, but will only show 2 completely in the indicator because otherwise it gets too long. Any additional ones should just have one line each, having a menu expand to the side.
+* Open local folder
+  * If selective sync on the desktop is used, this can also have multiple entries. Clicking any of those should open the relevant folder in the file manager.
+* Recently changed
+  * A list of, say, 5 recently changed files from the server.
+  * Last entry of the list could be a link to a future »status updates« page.
+* X% of XGB used
+  * If possible, this could have a bar indicator as a background.
+  * For branded clients there could be a »get more« link on the right of this to a pricing page of the provider.
+* Sync state, each one with a button to the right
+  * All files up to date (force sync button, circular arrows icon)
+  * Syncing X files (x:xx remaining) (pause sync, pause icon)
+  * Synchronization paused (resume sync, play icon) set in bold
+  * Offline (reconnect button, circular arrows icon) set in bold
+  * Connection error (reconnect button, circular arrows icon)
+    * If a retry doesn’t work, replace the reconnect button with a link to the account in settings
+* Settings
+* Quit ownCloud
+
 ![](indicator menu, more accounts.jpg)
 
 
