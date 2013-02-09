@@ -62,6 +62,15 @@ For existing users of the client simply do not migrate anything. If you just upd
 ![](indicator menu, more accounts.jpg)
 
 
+## File manager integration
+* Sync state badges for files and folders, using the same icons Achim made for the tray (maybe just the specific state icon without the ownCloud icon part, for simplicity.)
+* Right-click menu on files inside a synced folder should have an »ownCloud« entry, containing:
+  * Browse online (open ownCloud server with Files app at that location, go into preview mode if it’s a file)
+  * Share link (public sharing)
+  * Share file/folder (private sharing)
+* Right-click menu on any folder outside an already synced folder should contain an entry »Sync with ownCloud«, which leads to the settings.
+
+
 ## Discovery & Installation
 Improving the client also includes improving how people discover, download and install it. Thoughts on the different ways people might do this:
 
