@@ -40,3 +40,13 @@ For existing users of the client simply do not migrate anything. If you just upd
 ![](indicator menu, more accounts.jpg)
 
 
+## Discovery & Installation
+Improving the client also includes improving how people discover, download and install it. Thoughts on the different ways people might do this:
+
+ * Visit owncloud.org/com, look for client
+   * Should probably show directly on frontpage, ideally detect your operating system and focus on the relevant download.
+ * googling for owncloud dektop/client/windows/mac/linux, leads to owncloud.org/sync-clients or owncloud.com/download
+   * both of these pages should detect the client they are accessed from and prioritize the download links accordingly
+ * Is the current version installable from the Mac Appstore or Ubuntu Software Center? Is it feasible to keep it updated in there?
+ * Is it possible to automatically open the app (connect dialog) after installation?
+
