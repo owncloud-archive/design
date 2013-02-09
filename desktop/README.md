@@ -1,6 +1,18 @@
 # ownCloud desktop client
 
 
+## General thoughts
+
+* We need to optimize for the standard use case: just syncing everything inside the user account on the ownCloud server with an »ownCloud« folder in the user’s home folder on the device.
+  * »clientsync« subfolder needs to be phased out
+  * »sync target« choice also needs to be removed because it’s too unspecific to ownCloud – of course I want to sync with my ownCloud when I installed the client ;)
+* It should be possible to do selective sync, that is only syncing down specific folders from the server, useful for small machines or bad connections. Not granular down to the file level though to keep it simple.
+* It should also be possible to sync folders from anywhere on your computer. Either by just right-clicking on the folder and choosing »Sync with ownCloud« or by adding it manually in the settings.
+* Small files should be synced first because that’s fast and most likely text with lots of useful content.
+* »mirall« repo name should be changed to »desktop« to clear up confusion when wanting to report issues, contribute, etc.
+* Lots of these points are also valid for the iOS and Android clients
+
+
 ## Sync mechanism
 First off we need to define how syncing works, with selective sync and different clients.
 
