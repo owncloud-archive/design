@@ -51,7 +51,7 @@ The most important elements are the inputs for address, username, password and t
    * A »show password« toggle (closed/open eye) on the right of the field should enable people to check their password after they put it in. By default set to off of course.
    * Pressing enter in this field should lead to the connection being initiated, but only if the address was checked and correctly resolved.
 (In the future it might be even simpler when every ownCloud server could use OAuth – then you would just need to put in the address, be redirected to your ownCloud server and the client receives a token.)
- * Not in the sketch: a **»sync shared«** setting, deselected by default.
+ * Not in the sketch: a **»sync files shared with me«** setting, deselected by default.
 
 ![](setup 2 advanced.jpg)
 Additionally there is an »Advanced« section, containing advanced settings which are better set before starting sync:
@@ -67,8 +67,9 @@ If people want to cancel the client, there is a small unobtrusive x in the top r
 
 ![](setup 3 choosefolders.jpg)
 
-After connection, there could be a short tour of features.
-The ownCloud folder could automatically be openend in the file manager.
+* Below the »Finish setup« button maybe a short recap of what will happen, for information: This will sync your ownCloud server to a local »ownCloud« folder.
+* After connection, there could be a short tour of features.
+* The ownCloud folder could automatically be openend in the file manager.
 
 
 ## Indicator menu
@@ -96,6 +97,8 @@ The ownCloud folder could automatically be openend in the file manager.
 * Quit ownCloud
 
 ![](indicator menu, more accounts.jpg)
+
+* If there’s more than one account, it’s probably better to just have one line per additional account instead of cluttering up the indicator menu.
 
 
 ## File manager integration
