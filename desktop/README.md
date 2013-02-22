@@ -101,6 +101,29 @@ If people want to cancel the client, there is a small unobtrusive x in the top r
 * If there’s more than one account, it’s probably better to just have one line per additional account instead of cluttering up the indicator menu.
 
 
+## Settings
+
+All settings, general as well as account-specific ones, should be in one window with tabbed navigation. The general settings will be the first, most prominent tab. The accounts will be below that, with the last entry in the list enabling people to add a new account.
+
+General settings can include:
+* show desktop notifications (default on)
+* start ownCloud on system startup (default on)
+* proxy
+* poll time
+* bandwidth limitation
+* about / credits / help / issues (link tracker)
+
+![](settings.jpg)
+Account-specific are things such as
+* ownCloud connection status
+* address, username, password
+* disconnect
+
+Then there should be an advanced account mode, which enables people to selectively sync local folders. As this has many specifics and edge-cases, sketches will only come so far and we need to design and refine this as we go along.
+![](settings, account advanced.jpg)
+Basically it would be a list of connections, local folder on the left and remote folder on the right. From there you can add, update and remove selectively synced folders.
+
+
 ## File manager integration
 * Sync state badges for files and folders, using the same icons Achim made for the tray (maybe just the specific state icon without the ownCloud icon part, for simplicity.)
 * Right-click menu on files inside a synced folder should have an »ownCloud« entry, containing:
