@@ -30,9 +30,45 @@ For existing users of the client simply do not migrate anything. If you just upd
 
 
 ## Setup
+
+The setup dialog which is the first thing people see after installing the client. Note this is only the first-run experience, and differs from the settings dialog.
+
 ![](setup 1 connect.jpg)
+The most important elements are the inputs for address, username, password and the connect button. These are the only things needed in the simplest use case:
+ * **Address**, with a small cloud icon
+   * Should be focused, so people can directly start typing.
+   * Connection should be checked with SSL automatically, while doing so overlay the cloud icon with a loading spinner.
+     * If the connection is successful, the cloud icon should get a small lock icon attached on the bottom right and a green background, as known from browser address bars. Hovering the icon should reveal a tooltip saying: »Secure connection established«
+     * If the SSL connection fails, http should be tried
+     * If http is successful, the cloud icon should get a small exclamation triangle attached on the bottom right, a yellow background and on hover reveal a tooltip saying: »Connection is insecure«
+       * **What should happen then? Retry, or tip how to fix it?**
+     * If the connection fails completely, the cloud icon should get a small x attached on the bottom right, a yellow background and on hover reveal a tooltip saying: »Connection failed. Retrying …« – automatically retrying when the tooltip is hovered or clicked.
+   * Base address should be tested if people put in a WebDAV address
+   * For branded client versions, the address field should be possible to hide and have the address hard-coded.
+   * Maybe there should be a hardcoded list of known providers in the client which can be used to automatically correct errors in the address (only if the connection doesn’t work)
+ * **Username**, with a small user icon
+ * **Password**, with a small dot-dot-dot icon
+   * A »show password« toggle (closed/open eye) on the right of the field should enable people to check their password after they put it in. By default set to off of course.
+   * Pressing enter in this field should lead to the connection being initiated, but only if the address was checked and correctly resolved.
+(In the future it might be even simpler when every ownCloud server could use OAuth – then you would just need to put in the address, be redirected to your ownCloud server and the client receives a token.)
+ * Not in the sketch: a **»sync shared«** setting, deselected by default.
+
 ![](setup 2 advanced.jpg)
+Additionally there is an »Advanced« section, containing advanced settings which are better set before starting sync:
+ * Sync folder location
+   * This defaults to »ownCloud« in the home folder
+   * Clicking on it should open the native folder chooser dialog where a different directory can be chosen and a differently named folder.
+ * Selective sync
+   * This enables people to only sync specific folders from their ownCloud to the client (it’s exactly what Dropbox also does)
+   * The default is »Sync whole ownCloud«, and you can switch to »Choose folders«
+   * »Choose folders« will display the folders from the ownCloud, by default all of them checked, with the possibility to uncheck each.
+   * To be able to quickly judge what’s probably too big or irrelevant to sync, the file/folder size should be shown there also.
+If people want to cancel the client, there is a small unobtrusive x in the top right corner (or top left for Mac OS).
+
 ![](setup 3 choosefolders.jpg)
+
+After connection, there could be a short tour of features.
+The ownCloud folder could automatically be openend in the file manager.
 
 
 ## Indicator menu
