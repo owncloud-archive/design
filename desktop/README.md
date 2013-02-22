@@ -44,14 +44,14 @@ The most important elements are the inputs for address, username, password and t
        * **What should happen then? Retry, or tip how to fix it?**
      * If the connection fails completely, the cloud icon should get a small x attached on the bottom right, a yellow background and on hover reveal a tooltip saying: »Connection failed. Retrying …« – automatically retrying when the tooltip is hovered or clicked.
    * Base address should be tested if people put in a WebDAV address
-   * For branded client versions, the address field should be possible to hide and have the address hard-coded.
+   * For whitelabeling, the address field should be possible to hide and have the address hard-coded.
    * Maybe there should be a hardcoded list of known providers in the client which can be used to automatically correct errors in the address (only if the connection doesn’t work)
  * **Username**, with a small user icon
  * **Password**, with a small dot-dot-dot icon
    * A »show password« toggle (closed/open eye) on the right of the field should enable people to check their password after they put it in. By default set to off of course.
    * Pressing enter in this field should lead to the connection being initiated, but only if the address was checked and correctly resolved.
 (In the future it might be even simpler when every ownCloud server could use OAuth – then you would just need to put in the address, be redirected to your ownCloud server and the client receives a token.)
- * Not in the sketch: a **»sync files shared with me«** setting, deselected by default.
+ * Not in the sketch: a **»sync files shared with me«** setting, deselected by default. This should sync the »Shared« folder down into the »ownCloud folder«.
 
 ![](setup 2 advanced.jpg)
 Additionally there is an »Advanced« section, containing advanced settings which are better set before starting sync:
@@ -115,7 +115,7 @@ General settings can include:
 
 ![](settings.jpg)
 Account-specific are things such as
-* ownCloud connection status
+* ownCloud connection status (also shown in the small icon in the account list)
 * address, username, password
 * disconnect
 
