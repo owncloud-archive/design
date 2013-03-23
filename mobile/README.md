@@ -14,10 +14,10 @@ There are 5 general views:
 
 * **File & folder list**
   * top bar
-    * menu button to the left
-    * current folder title in the middle (»ownCloud« when in root folder)
-    * add button on the right: on click shows popover with buttons »Upload Here« and »Create Folder« (see Dropbox), clicking outside the popover will close it
-    * (no use of Android dropdown or multiselect button)
+     * menu button to the left
+     * current folder title in the middle (»ownCloud« when in root folder)
+     * add button on the right: on click shows popover with buttons »Upload Here« and »Create Folder« (see Dropbox), clicking outside the popover will close it
+     * (no use of Android dropdown or multiselect button)
   * no bottom bar needed
   * listing files and folders like already now
   * sorted alphabetically, folders and files mixed (toggle to sort by modified date would be great, see Dropbox)
@@ -31,28 +31,28 @@ There are 5 general views:
   * focus on content, top and bottom bars are half-transparent and vanish after a while, and toggle visibility on tapping the file
   * top bar: back function, and document title
   * bottom bar (for easier finger access), all icons monochrome
-    * Share
-    * Star (outline when not starred, shape when starred)
-    * then maybe »open with« or »delete«
+     * Share
+     * Star (outline when not starred, shape when starred)
+     * then maybe »open with« or »delete«
   * swiping left/right will cycle through files in that folder (like iOS Photos), except when zoomed in of course where swiping pans the file
 
 * **Menu**
   * the menu moves in from the left on clicking the menu button or swiping from the far left / screen edge, moving the content area to the right. Always showing a bit of the content area still on the right, as indicator and allowing for a quick swipe to go back. (see Gmail on iOS and lots of other apps)
   * Entries:
-    * Files
-    * Shared
-    * Favorites
-    * Uploads
-    * Settings (at the bottom, see next point)
+     * Files
+     * Shared
+     * Favorites
+     * Uploads
+     * Settings (at the bottom, see next point)
   * current entry is highlighted
 
 * **Settings**
   * account list, directly on that page (basically like now the list on the »Manage Accounts« page, but not on a separate page)
-    * icon showing connection status
-    * tapping an account will switch to that one, automatically switching to the »Files« view
-    * swiping to the left on an account row will show a »Disconnect« button to remove the account, much like »Delete« for files
-    * each account row has an arrow on the right, tapping will open the connection details to change them (looking just like the Setup dialog
-    * last entry in the list is »Add account« (which will open a new Setup dialog, see next point)
+     * icon showing connection status
+     * tapping an account will switch to that one, automatically switching to the »Files« view
+     * swiping to the left on an account row will show a »Disconnect« button to remove the account, much like »Delete« for files
+     * each account row has an arrow on the right, tapping will open the connection details to change them (looking just like the Setup dialog
+     * last entry in the list is »Add account« (which will open a new Setup dialog, see next point)
   * PIN
   * wifi upload settings
   * storage limits info
@@ -61,12 +61,12 @@ There are 5 general views:
 
 * **Setup dialog**
   * keep it simple
-    * ownCloud logo
-    * »Connect to your ownCloud«
-    * »Server http://« field
-    * »Username« field
-    * »Password« field (with show password eye toggle, only shown when at least one character is entered)
-    * »Connect« button on the bottom right
+     * ownCloud logo
+     * »Connect to your ownCloud«
+     * »Server http://« field
+     * »Username« field
+     * »Password« field (with show password eye toggle, only shown when at least one character is entered)
+     * »Connect« button on the bottom right
   * for the behavior, refer to the [desktop client setup dialog](https://github.com/owncloud/mockups/blob/master/desktop/README.md#setup) (excluding the Advanced section)
   * the fields should use in-field labels to reduce visual content, like in the web interface. The labels should not vanish on click but only as soon as something is typed into them (see web interface, or GitHub Issues iOS app)
   * the fields should be visually grouped, like in the web interface (also see GitHub Issues iOS app)
