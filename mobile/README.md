@@ -4,7 +4,7 @@
 ## General thoughts
 
 * Generally the design of the mobile apps should be very simple. There’s not much to it and the focus should be on the files. Hence it’s also possible to keep the design largely similar for iOS and Android (using the interface elements of the respective platform of course)
-* Offline should not be handled like an exception. People are often offline, be it because they have only wifi plans, or are on a plane, or just because the connection is bad. Creating folders and uploading files should just work, the changes can be synced once online again. Inaccessible files (not starred or saved offline) should be greyed out in the document list and not clickable.
+* Offline should not be handled like an exception. People are often offline, be it because they have only wifi plans, or are on a plane, or just because the connection is bad. Creating folders and uploading files should just work, the changes can be synced once online again. Inaccessible files (not favorited or saved offline) should be greyed out in the document list and not clickable.
 * Identity, especially app icon, splash screen and logo on Setup dialog: better keep in line with the web interface (and more elegant look) and have dark blue background (#1d2d42) with a white ownCloud logo (and a subtle fade, like on the [GitHub organization avatar](https://github.com/owncloud/)?
 
 
@@ -32,7 +32,7 @@ There are 5 general views:
   * top bar: back function, and document title
   * bottom bar (for easier finger access), all icons monochrome
      * Share
-     * Star (outline when not starred, shape when starred)
+     * Star (outline when not favorited, shape when favorited)
      * then maybe »open with« or »delete«
   * swiping left/right will cycle through files in that folder (like iOS Photos), except when zoomed in of course where swiping pans the file
 
@@ -41,7 +41,7 @@ There are 5 general views:
   * Entries:
      * Files
      * Shared
-     * Starred
+     * Favorites (star icon)
      * Uploads
      * Settings (at the bottom, see next point)
   * current entry is highlighted
@@ -77,7 +77,7 @@ There are 5 general views:
 
 * **open** file/folder: simple tap. Any downloaded document will, in addition to open a document and save it for offline access
 * **menu** (sidebar): menu button on the top left, or swipe from far left (edge of the screen). When in a subfolder, the button on the top left will change to 1-level-up, and the swipe from far left gesture will still enable people to quickly access the other menu entries. Changing menu entries will preserve the location in the other menu entries (in case you were in a deep folder or had a file open), clicking the currently selected menu entry will go to the root folder of that entry.
-* **star** or **share** a file: inside the open document there will be icons to share and star (automatically download and keep current) in the bottom bar
+* **star** or **share** a file: inside the open document there will be icons to share and star (favorite, automatically download and keep current) in the bottom bar
 * **rename** file/folder: for folders, clicking on the folder name in the title will go into rename mode (see iA Writer). For files, clicking on the file name in the file view will do the same.
 * **delete** file/folder: swipe from right in the document list will show a red »Delete« button (classic pattern). For files which are already downloaded, there will be a dialog asking »Only delete local file« (grey), »Delete from server« (red), »Cancel« (dark grey). (See iBooks for reference)
 * (if needed) **multiselect**: swipe from left, will move the entries slightly to the right (in accordance with the gesture) and reveal checkboxes
