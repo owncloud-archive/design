@@ -41,7 +41,7 @@ There are 5 general views:
   * Entries:
      * Files
      * Shared
-     * Favorites
+     * Starred
      * Uploads
      * Settings (at the bottom, see next point)
   * current entry is highlighted
@@ -77,7 +77,7 @@ There are 5 general views:
 
 * **open** file/folder: simple tap. Any downloaded document will, in addition to open a document and save it for offline access
 * **menu** (sidebar): menu button on the top left, or swipe from far left (edge of the screen). When in a subfolder, the button on the top left will change to 1-level-up, and the swipe from far left gesture will still enable people to quickly access the other menu entries. Changing menu entries will preserve the location in the other menu entries (in case you were in a deep folder or had a file open), clicking the currently selected menu entry will go to the root folder of that entry.
-* **star** or **share** a file: inside the open document there will be icons to star/share in the bottom bar
+* **star** or **share** a file: inside the open document there will be icons to share and star (automatically download and keep current) in the bottom bar
 * **rename** file/folder: for folders, clicking on the folder name in the title will go into rename mode (see iA Writer). For files, clicking on the file name in the file view will do the same.
 * **delete** file/folder: swipe from right in the document list will show a red »Delete« button (classic pattern). For files which are already downloaded, there will be a dialog asking »Only delete local file« (grey), »Delete from server« (red), »Cancel« (dark grey). (See iBooks for reference)
 * (if needed) **multiselect**: swipe from left, will move the entries slightly to the right (in accordance with the gesture) and reveal checkboxes
