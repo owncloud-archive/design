@@ -5,7 +5,7 @@
 
 * Generally the design of the mobile apps should be very simple. There’s not much to it and the focus should be on the files. Hence it’s also possible to keep the design largely similar for iOS and Android (using the interface elements of the respective platform of course)
 * Offline should not be handled like an exception. People are often offline, be it because they have only wifi plans, or are on a plane, or just because the connection is bad. Creating folders and uploading files should just work, the changes can be synced once online again. Inaccessible files (not favorited or saved offline) should be greyed out in the document list and not clickable.
-* Identity, especially app icon, splash screen and logo on Setup dialog: better keep in line with the web interface (and more elegant look) and have dark blue background (#1d2d42) with a white ownCloud logo (and a subtle fade, like on the [GitHub organization avatar](https://github.com/owncloud/)?
+* Identity, especially app icon, splash screen, top bar and logo on Setup dialog: better keep in line with the web interface (and more elegant look) and have dark blue background (#1d2d42) with a white ownCloud logo (and a subtle fade, like on the [GitHub organization avatar](https://github.com/owncloud/)?
 
 
 ## Layout
